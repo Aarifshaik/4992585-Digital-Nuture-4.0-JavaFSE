@@ -1,1 +1,34 @@
 *.class
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+log/
+
+# Java
+*.class
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+
+# Test reports
+surefire-reports/
